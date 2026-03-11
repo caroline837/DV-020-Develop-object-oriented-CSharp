@@ -3,9 +3,8 @@ lab:
   title: Exercise Title
   module: Learn module title
   description: Before you can start this exercise, you will need to...
-  duration: 72 minutes
+  duration: 30 minutes
   level: 100
-  islab: true
 ---
 
 <!--
