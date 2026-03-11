@@ -1,9 +1,12 @@
 ---
 lab:
-    title: 'Exercise - Create classes and objects in C#'
-    module: 'Get started with classes and objects in C#'
+  title: Exercise - Create classes and objects in C#
+  module: Get started with classes and objects in C#
+  description: In this exercise, you create a console app that uses class definitions to instantiate objects.
+  duration: 25 minutes
+  level: 100
+  islab: true
 ---
-
 
 # Create classes and objects in C#
 
