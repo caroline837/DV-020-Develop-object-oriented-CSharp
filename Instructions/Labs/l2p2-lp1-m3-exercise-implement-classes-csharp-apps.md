@@ -5,7 +5,6 @@ lab:
   description: In this exercise, you encapsulate the data and behavior of a class by implementing properties and methods.
   duration: 30 minutes
   level: 200
-  islab: true
 ---
 
 # Implement classes in C# applications
