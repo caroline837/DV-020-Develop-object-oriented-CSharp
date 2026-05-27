@@ -58,7 +58,7 @@ Use the following steps to complete this task:
 
     For example:
 
-    1. To open the Command Palette, press **Ctrl+Shift+P**.
+    1. To open the Command Palette, click **View**,then choose **Command Palette**.
     1. In the Command Palette, type **.NET:** and then select **.NET: New Project**.
     1. In the 'Create a new .NET Project' box, select **Console App**.
     1. In the 'Name the new project' box, type **Classes_M1** and then press Enter.
