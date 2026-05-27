@@ -54,16 +54,19 @@ Use the following steps to complete this task:
     1. Select **New Folder** and name the folder **My CSharp Projects**.
     1. Select the **My CSharp Projects** folder and then select **Select Folder**.
 
-1. Use the Command Palette to create a new console app named **Classes_M1**.
+1. Use the integrated terminal to create a new console app named **Classes_M1**.
 
     For example:
 
-    1. To open the Command Palette, click **View**,then choose **Command Palette**.
-    1. In the Command Palette, type **.NET:** and then select **.NET: New Project**.
-    1. In the 'Create a new .NET Project' box, select **Console App**.
-    1. In the 'Name the new project' box, type **Classes_M1** and then press Enter.
-    1. In the 'Select location for the project' box, select **Default directory**
-    1. In the 'Create project or view options' box, select **Create project**
+    1. Open the integrated terminal in Visual Studio Code.
+    1. Make sure the terminal is in the **My CSharp Projects** folder.
+    1. Run the following command:
+
+    ```powershell
+
+    dotnet new console -n Classes_M1
+
+    ```
 
     You should see a new console app project named **Classes_M1** in the Visual Studio Code EXPLORER view.
 
@@ -97,11 +100,15 @@ Use the following steps to complete this task:
 
 1. Open the **Program.cs** file, and then delete the existing "hello, world" code.
 
-1. Right-click the **Classes_M1** project, and then select **New File**.
+1. Create a new class file named **BankCustomer.cs** in the **Classes_M1** project folder.
 
-    If you don't see the option to create a new file, ensure that you're accessing the **Classes_M1** project folder not the **Classes_M1** solution folder.
+    If right-click is unavailable in your environment, use the Explorer's **New File** button or create the file from the integrated terminal. For example, from the **Classes_M1** project folder, run:
 
-1. In the 'Create a new file' dropdown, to create a class file named BankCustomer.cs, select **Class** and then enter **BankCustomer**.
+    ```powershell
+
+    New-Item -Name BankCustomer.cs -ItemType File
+
+    ```
 
     You should see a new file named **BankCustomer.cs** open in the Visual Studio Code editor. The file should be located in the **Classes_M1** project folder, and the code should look similar to the following code snippet:
 
